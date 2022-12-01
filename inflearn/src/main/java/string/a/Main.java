@@ -29,7 +29,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String text = scanner.next().toUpperCase();
         char word = Character.toUpperCase(scanner.next().charAt(0));
-        int answer = 0;
+        int answer = 0; 
 
         for (char compareWord : text.toCharArray()) {
             if (word == compareWord) {
