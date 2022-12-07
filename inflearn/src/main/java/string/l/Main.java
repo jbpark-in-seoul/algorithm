@@ -54,7 +54,7 @@ public class Main {
         }
 
 
-        return answer.toString();
+        return answer;
     }
     
     public static void main(String[] args) {
